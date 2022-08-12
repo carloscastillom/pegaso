@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-go$umw(u33-=a*cos)@!5$n(g0fr_=)xgcak!*je^4j2rb2^!q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pegaso-task-app.herokuapp.com', 'localhost']
 
 
 # Application definition
