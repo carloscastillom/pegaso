@@ -74,10 +74,15 @@ WSGI_APPLICATION = 'pegaso.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dc759jm5es029h',                      
+        'USER': 'inxyogggzwauns',
+        'PASSWORD': '4e0bc9009f62a5bfed661648eddc5c18fdd2b0edadc71c3c3b48fbffc8bfbee4',
+        'HOST': 'ec2-52-51-3-22.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
